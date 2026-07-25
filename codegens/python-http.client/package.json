@@ -27,10 +27,13 @@
   "license": "Apache-2.0",
   "homepage": "https://github.com/postmanlabs/code-generators/tree/master/codegens/python-http.client",
   "dependencies": {
-    "postman-collection": "3.6.8"
+    "postman-collection": "5.0.0"
   },
   "devDependencies": {},
   "engines": {
     "node": ">=8"
+  },
+  "overrides": {
+    "lodash": "4.18.1"
   }
 }
